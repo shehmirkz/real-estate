@@ -1,0 +1,1500 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Montserrat:wght@200;300;400;600;700;800&family=Poppins:wght@200;300;600;700;800&display=swap');
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('Bahnschrift.woff2') format('woff2'),
+        url('Bahnschrift.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+h4.extra {
+    display: none;
+}
+h1, h2,h3, span {
+    font-family: 'Bahnschrift';
+}
+p {
+    color: #1f223e;
+}
+h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+}
+span {
+    color: #95c322;
+    font-size: 38px;
+    padding: 0 5px;
+}
+
+p, a {
+    font-family:'Montserrat', sans-serif; 
+}
+
+.main-banner {
+    background: url(../images/background.png) no-repeat center;
+    height: 745px;
+}
+nav {
+    padding: 0 92px 0 126px;
+}
+.logo-nav {
+    position: relative;
+}
+.logo-nav::before {
+    position: absolute;
+    content: '';
+    background: url(../images/logo.png) no-repeat center;
+    width: 403px;
+    height: 37px;
+    left: -74px;
+    right: 0;
+    top: 0;
+    margin: auto;
+    bottom: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #1f223e;
+    font-weight: 600;
+}
+.nav-link i {
+    font-size: 25px;
+}
+.nav-right li {
+    position: relative;
+}
+.nav-right li:last-child {
+    margin-left: 141px;
+}
+.nav-right li a{
+    text-decoration: none;
+    color: #1f223e;
+}
+.nav-right li a i {
+    position: absolute;
+    font-size: 31px;
+    left: -43px;
+    top: 6px; 
+}
+
+.nav-item p {
+    line-height: 10px;
+    font-size: 11px;
+    color: #1f223e;
+}
+div#navbarTogglerDemo02 {
+    padding: 0px 0;
+}
+.second-navbar {
+    background: #1f223e;
+}
+
+.second-nav li {
+    padding-right: 33px;
+    padding-left: 33px;
+    font-size: 14px;
+}
+.second-nav li a {
+    position: relative;
+    cursor: pointer;
+}
+.second-nav li a:before {
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid #95c322;
+    bottom: -9px;
+    display: none;
+    height: 4px;
+    width: 100%;
+    left: 0;
+}
+.second-nav li a:hover::before {
+    display: inline;
+}
+
+
+/* SECOND NAVBAR STYLING STARTS HERE */
+
+.second-nav li a, .nav-bold {
+    color: #fff !important;
+}
+a.nav-link.nav-bold {
+    font-weight: 600;
+}
+.last-nav .nav-bold i {
+    position: absolute;
+    padding: 0 10px 0 0;
+    font-size: 30px;
+    left: -34px;
+    top: 6px;
+}
+.last-nav li {
+    margin-right: 38px;
+    position: relative;
+}
+i.fas.fa-tag.icon-flip-horizontal {
+    transform: rotate(80deg);
+    font-size: 23px;
+    top: 17px;
+    left: -45px;
+}
+.navbar-brand {
+    color: #95c322 !important;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    display: none;
+    font-family: 'Bahnschrift';
+}
+
+/* BANNER STYLING STARTS HERE */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 238px;
+}
+.banner p {
+    margin-bottom: 0;
+}
+.banner h2 {
+    font-weight: 400;
+    letter-spacing: -1px;
+    padding-bottom: 4px;
+}
+.banner h2, p {
+    color: #fff;
+}
+.banner-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.banner-ul li{
+    list-style: none;
+    margin-top: 8px;
+}
+.banner-ul li a {
+    text-decoration: none;
+    color: #1f223e;
+    /* width: 218px;
+    height: 60px; */
+    background: #fff;
+    margin-right: 20px;
+    padding: 18px 49px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.banner-ul li a:hover {
+    color: #fff;
+    background: #95c322;
+}
+.banner-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-input li {
+    list-style: none;
+}
+.banner-input li a {
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 19px 68px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.banner-input li a:hover {
+    background: #95c322;
+    border: 1px solid #95c322;
+}
+input#address {
+    width: 453px;
+    height: 60px;
+    margin-right: 20px;
+}
+.banner-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-links li {
+    padding-right: 20px;
+    color: #fff;
+    list-style: none;
+}
+.banner-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+.banner-links li a:hover {
+    color: #95c322;
+    text-decoration: underline;
+}
+
+/* SUBSCRIBE SECTION STYLING STARTS HERE */
+
+.subscribe {
+    background: url(../images/background2.png) no-repeat center;
+    height: 241px;
+}
+
+.subscribe-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 0;
+    position: relative;
+}
+.subscribe-row h3, p, a {
+    color: #fff;
+}
+.subscribe-row h3 {
+    padding: 43px 110px 0 113px;
+    font-size: 37px;
+}
+.subscribe-row h2 {
+    color: #fff;
+    text-align: start;
+    font-size: 38px;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -55px;
+    margin-top: 33px;
+}
+.subscribe-row p {
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 500;
+    margin-left: -55px;
+}
+.subscribe-row a {
+    background: #95c322;
+    text-decoration: none;
+    padding: 19px 55px;
+    font-size: 14px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    right: 140px;
+    bottom: 71px;
+}
+.subscribe-row a:hover {
+    background: #1f223e;
+    color: #95c322;
+    border: 1px solid #95c322;
+}
+
+
+/* FEATURED SALES STYLING STARTS HERE */
+
+.featured-sales {
+    padding: 50px 0;
+}
+.featured-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.featured-sales h2 {
+    padding-top: 50px;
+    letter-spacing: -2px;
+}
+.featured-sales span {
+    padding: 0 11px;
+}
+.featured-grid li {
+    width: 340px;
+    height: 355px;
+    text-align: start;
+    color: #1f223e;
+    border-radius: 11px;
+box-shadow: -9px 0px 46px -2px rgba(0,0,0,0.34);
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+}
+.featured-grid .card p {
+    color: #1f223e;
+    margin-bottom: 0;
+}
+.featured-grid .card p:first-child {
+    padding-top: 20px;
+}
+.card-title {
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+.card-body {
+    background: #f1f1f1;
+    position: relative;
+}
+.featured-grid .card p:last-child {
+    font-size: 12px;
+}
+.viewmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.viewmore:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 310px;
+    background-color: #95c322;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+    margin: auto;
+}
+.viewmore a {
+    color: #1f223e;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.viewmore a:hover {
+    font-weight: 600;
+}
+.card {
+    position: relative;
+}
+.card .rating {
+    width: 306px;
+    height: 65px;
+    background-color: #e1e1e1;
+    position: absolute;
+    padding: 3px 0;
+    margin: 0%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    top: 151px;
+}
+.card .rating p {
+    padding-top: 0px !important;
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
+
+.rating li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    box-shadow: none;
+    line-height: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.rating .rating-ul {
+    display: flex;
+    padding-left: 0;
+}
+.rating .rating-ul li h5 {
+    font-weight: 700;
+}
+
+
+/* STATE SALES SECTION STYLING START HERE */
+.estate-sale {
+    padding: 50px 0;
+}
+
+
+/* VIEW STATE SALES SECTION STYLING STARTS HERE */
+
+.view-state-sales {
+    background: #1f223e;
+    height: 1046px;
+    padding: 131px 0 0px 0;
+    letter-spacing: -2px;
+}
+
+.view-state-sales h2 {
+    color: #fff;
+}
+.state-sales-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.state-sales-ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+.state-sales-ul li .btn-secondary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 12px 27px;
+    margin: 0;
+    border-radius: 0%;
+}
+.view-state-sales .map {
+    background: url(../images/map.png) no-repeat center;
+    height: 772px;
+}
+
+
+/* NATIONALLY FEATURED SECTION STYLING STARTS HERE */
+.nationally-featured {
+    padding: 138px 0 0 0;
+}
+
+/* MICHIGAN COMPANIES STYLING STARTS HERE */
+
+.michigan-companies {
+    padding: 88px 0 95px 0;
+}
+
+/* CONTACT US SECTION STYLING STARTS HERE */
+.contact-us {
+    background: url(../images/background3.png) no-repeat center;
+    height: 100%;
+    background-size: cover;
+}
+.contact-row h2 {
+    color: #fff;
+    text-align: start;
+    font-size: 38px;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -63px;
+    margin-top: 5px;
+}
+.contact-row h3 {
+    padding: 0 0 0 134px;
+    font-size: 34px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contact-row {
+    padding: 15px 0;
+}
+.contact-row p {
+    padding-right: 100px;
+}
+.contact-row span {
+    padding: 0 5px 0 0;
+}
+
+
+
+
+.contact-us-links {
+    display: flex;
+}
+.contact-us-links li {
+    color: #fff;
+    list-style: none;
+    position: relative;
+}
+.contact-us-links li a i {
+    font-size: 25px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: -71px;
+    left: 56px;
+}
+.contact-us-links li  p {
+    line-height: 2px;
+    margin-top: 14px;
+}
+.contact-us-links li .odd {
+    font-size: 10px;
+}
+.contact-us-links li a {
+    background: transparent;
+    text-decoration: none;
+    padding: 18px 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #fff;
+    position: inherit;
+}
+.contact-us-links li a i {
+    padding-right: 10px;
+} 
+.contact-row a:hover {
+    background: transparent;
+    color: #fff;
+    border: 0;
+}
+
+/* FOOTER SECTION STYLING STATS HERE */
+
+footer {
+    padding: 40px 100px;
+}
+.footer-row h2 {
+    color: #95c322;
+    text-align: left;
+}
+.footer-row p {
+    color: #1f223e;
+    padding-right: 8px;
+}
+.footer-ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+.footer-ul li a {
+    text-decoration: none;
+    color: #1f223e;
+}
+.footer-ul li a:hover {
+    font-weight: 600;
+}
+.footer-ul li a i {
+    font-size: 22px;
+}
+.footer-ul li:first-child {
+    color: #95c322;
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer-ul li .sml {
+    font-size: 11px;
+    padding-right: 0;
+}
+.footer-links li:first-child {
+    padding-left: 0px;
+}
+.footer-links li {
+    padding-left: 40px;
+}
+.footer-links li {
+    position: relative;
+}
+.footer-links li i {
+    position: absolute;
+    left: 0;
+    font-size: 30px;
+    top: 3px;
+}
+.footer-mail li  input {
+    width: 272px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #7c7c7c;
+    font-family: 'Bahnschrift';
+    background: #f8f8f8;
+}
+.footer-mail li {
+    position: relative;
+}
+.footer-mail li i {
+    position: absolute;
+    font-size: 25px;
+    right: 22px;
+    top: 7px;
+    color: #95c322;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+}
+.footer-icons li a i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.footer-icons li:first-child {
+    color: #95c322;
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.copywrite hr {
+    background: #1f223e;
+    height: 2px;
+    opacity: 1;
+}
+.copywrite h6 {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Large desktops and laptops */
+@media (min-width: 1550px) and (max-width: 1820px ) {
+
+    .subscribe-row h3 {
+        padding: 43px 132px 0 46px;
+    }
+    .subscribe-row h2 {
+        font-size: 30px;
+    }
+    .subscribe-row p {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1300px) and (max-width: 1549px ) {
+
+    nav {
+        padding: 0 30px;
+    }
+    .logo-nav::before {
+        display: none;
+    }
+    .subscribe-row h3 {
+        padding: 23px 40px 0 18px;
+        font-size: 33px;
+    }
+    .subscribe-row h2 {
+        font-size: 30px;
+    }
+    .subscribe-row p {
+        font-size: 12px;
+    }
+    .subscribe-row a {
+        padding: 19px 30px;
+        right: 60px;
+        bottom: 62px;
+    }
+    .contact-row {
+        padding: 12px 0;
+    }
+    footer {
+        padding: 34px 0px;
+    }
+
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1299px ) {
+    nav {
+        padding: 0 30px;
+    }
+    .logo-nav::before {
+        display: none;
+    }
+    .second-nav li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .subscribe-row h3 {
+        padding: 23px 20px 0 20px;
+        font-size: 33px;
+    }
+    .subscribe-row h2 {
+        font-size: 30px;
+    }
+    .subscribe-row p {
+        font-size: 12px;
+    }
+    .subscribe-row a {
+        padding: 16px 7px;
+        right: 38px;
+        bottom: 62px;
+    }
+
+    .contact-row {
+        padding: 12px 0;
+    }
+    .footer-row h2 {
+        font-size: 36px;
+    }
+    footer {
+        padding: 34px 0px;
+    }
+    .footer-ul li a {
+        font-size: 14px;
+    }
+    .footer-mail li input {
+        width: 189px;
+    }
+    ul.footer-ul {
+        padding-left: 0;
+    }
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    h2 {
+        font-size: 36px;
+    }
+    span {
+        font-size: 36px;
+    }
+    nav {
+        padding: 0 30px;
+    }
+    .second-nav li {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .logo-nav::before {
+        display: none;
+    }
+    .logo-nav li h2 {
+        font-size: 32px;
+    }
+
+
+    
+    .subscribe-row h3 {
+        padding: 23px 20px 0 10px;
+        font-size: 33px;
+        text-align: center;
+    }
+    .subscribe-row h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .subscribe-row p {
+        font-size: 12px;
+        font-size: 12px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .subscribe-row a {
+        padding: 16px 20px;
+        right: 0;
+        bottom: -45px;
+        left: 0;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        margin: auto;
+    }
+    .subscribe {
+        height: 300px;
+        background-size: cover;
+    }
+    .subscribe-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        position: relative;
+        flex-direction: column;
+    }
+    .contact-row h3 {
+        padding: 15px 0;
+        font-size: 26px;
+        text-align: center;
+        justify-content: center;
+    }
+    .contact-row {
+        padding: 0 0;
+    }
+    .contact-row h2 {
+        font-size: 36px;
+        justify-content: center;
+    }
+    .contact-us-links {
+        display: none;
+    }
+
+
+
+
+    .contact-row p {
+        padding-right: 0;
+    }
+    .footer-row h2 {
+        font-size: 32px;
+    }
+    .view-state-sales {
+        padding: 50px 0 0px 0;
+    }
+    footer {
+        padding: 20px 0px;
+    }
+    .footer-row p {
+        font-size: 14px;
+    }
+    .footer-links li {
+        padding-left: 34px;
+    }
+    .footer-links li i {
+        font-size: 25px;
+    }
+    .footer-ul li a {
+        font-size: 14px;
+    }
+    .footer-mail li input {
+        width: 189px;
+    }
+    ul.footer-ul {
+        padding-left: 0;
+    }
+  
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h2 {
+        font-size: 32px;
+    }
+    span {
+        font-size: 32px;
+    }
+    header {
+        height: 100%;
+    }
+    nav {
+        padding: 0 30px;
+    }
+    .logo-nav::before {
+        display: none;
+    }
+    .banner {
+        padding-top: 58px;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 0.9em;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .navbar-light .navbar-toggler {
+        padding: 0;
+    }
+    .top-nav {
+        display: none;
+    }
+    .nav-bold {
+        display: none;
+    }
+    .banner-ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0 0px 0;
+        flex-wrap: wrap;
+    }
+    .banner-ul li {
+        margin-bottom: 45px;
+    }
+
+    .logo-nav li h2 {
+        font-size: 32px;
+    }
+    .main-banner {
+        height: 100%;
+    }
+    input#address {
+        width: 391px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .banner-ul li a {
+        padding: 18px 40px;
+    }
+    .nationally-featured {
+        padding: 44px 0 0 0;
+    }
+    .subscribe-row h3 {
+        padding: 23px 20px 0 10px;
+        font-size: 33px;
+        text-align: center;
+    }
+    .subscribe-row h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        justify-content: center;
+    }
+    .subscribe-row p {
+        font-size: 12px;
+        font-size: 12px;
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .subscribe-row a {
+        padding: 16px 20px;
+        right: 0;
+        bottom: -60px;
+        left: 0;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        margin: auto;
+    }
+    .subscribe {
+        height: 241px;
+        background-size: cover;
+    }
+    .subscribe-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        position: relative;
+        flex-direction: column;
+    }
+    .featured-grid li {
+        width: 328px;
+        margin-right: 15px;
+        margin-bottom: 60px;
+        margin-left: 0;
+    }
+    .contact-row h3 {
+        padding: 15px 0;
+        font-size: 26px;
+        text-align: center;
+        justify-content: center;
+    }
+    .contact-row {
+        padding: 0 0;
+    }
+    .contact-row h2 {
+        font-size: 36px;
+        justify-content: center;
+    }
+    .contact-us-links {
+        display: none;
+    }
+    .contact-row p {
+        padding-right: 0;
+    }
+    .footer-row h2 {
+        font-size: 32px;
+    }
+    .view-state-sales {
+        padding: 50px 0 0px 0;
+    }
+    footer {
+        padding: 20px 0px;
+    }
+    .footer-row p {
+        font-size: 14px;
+    }
+    .footer-links li {
+        padding-left: 34px;
+    }
+    .footer-links li i {
+        font-size: 25px;
+    }
+    .footer-ul li a {
+        font-size: 14px;
+    }
+    .footer-mail li input {
+        width: 189px;
+    }
+    ul.footer-ul {
+        padding-left: 0;
+    }
+    .footer-mail {
+        display: none;
+    }
+    .footer-icons {
+        display: none;
+    }
+    
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    span {
+        font-size: 25px;
+    }
+    header {
+        height: 100%;
+    }
+    nav {
+        padding: 0 30px;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .logo-nav::before {
+        display: none;
+    }
+    .banner {
+        padding-top: 58px;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #1f223e;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 25px;
+    }
+    .nav-bold {
+        display: none;
+    }
+    .top-nav {
+        display: none;
+    }
+    .banner-ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0 0px 0;
+        flex-wrap: wrap;
+    }
+    .banner-input {
+        flex-wrap: wrap;
+    }
+    .banner-input li {
+        margin-bottom: 40px;
+    }
+    .banner-ul li {
+        margin-bottom: 45px;
+    }
+
+    .banner-input li a {
+        padding: 12px 100px;
+    }
+    .logo-nav li h2 {
+        font-size: 30px;
+    }
+
+    .main-banner {
+        height: 100%;
+    }
+    input#address {
+        width: 391px;
+        height: 52px;
+        margin-right: 10px;
+    }
+    .banner-ul li a {
+        padding: 14px 14px;
+        margin-right: 6px;
+    }
+    .subscribe-row h3 {
+        padding: 23px 20px 0 10px;
+        font-size: 28px;
+        text-align: center;
+        justify-content: center;
+    }
+    .subscribe-row h2 {
+        font-size: 22px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        justify-content: center;
+    }
+    .subscribe-row p {
+        font-size: 12px;
+        font-size: 12px;
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .subscribe-row a {
+        padding: 16px 20px;
+        right: 0;
+        bottom: -60px;
+        left: 0;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        margin: auto;
+    }
+    .subscribe {
+        height: 241px;
+        background-size: cover;
+    }
+    .subscribe-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        position: relative;
+        flex-direction: column;
+    }
+    .featured-grid li {
+        width: 328px;
+        margin-right: 15px;
+        margin-bottom: 60px;
+        margin-left: 0;
+        box-shadow: none;
+        border: 1px solid #dddddd;
+    }
+    .featured-sales h2 {
+        padding-top: 0;
+    }
+    .featured-grid {
+        padding-top: 0px;
+        margin-bottom: 0;
+    }
+    .nationally-featured {
+        padding: 28px 0 0 0;
+    }
+    .michigan-companies {
+        padding: 52px 0 40px 0;
+    }
+    .card-body {
+        text-align: center;
+    }
+    .subscribe-row {
+        padding: 0px 0;
+    }
+    .contact-us-links {
+        display: none;
+    }
+    .contact-row {
+        padding: 0 0;
+    }
+    .contact-row h2 {
+        font-size: 30px;
+    }
+    .contact-row p {
+        padding-right: 0;
+    }
+    .footer-row h2 {
+        font-size: 32px;
+    }
+    .view-state-sales {
+        padding: 50px 0 0px 0;
+    }
+    footer {
+        padding: 20px 0px;
+    }
+    .footer-row p {
+        font-size: 14px;
+    }
+    .footer-links li {
+        padding-left: 34px;
+    }
+    .footer-links li i {
+        font-size: 25px;
+    }
+    .footer-ul li a {
+        font-size: 14px;
+    }
+    .footer-mail li input {
+        width: 189px;
+    }
+    ul.footer-ul {
+        padding-left: 0;
+    }
+    .footer-mail {
+        display: none;
+    }
+    .footer-icons {
+        display: none;
+    }
+    
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+  
+
+    body {
+        overflow-x: hidden;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    span {
+        font-size: 22px;
+    }
+    header {
+        height: 100%;
+    }
+    nav {
+        padding: 0 30px;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .logo-nav::before {
+        display: none;
+    }
+    .banner {
+        padding-top: 58px;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-brand {
+        display: block;
+        font-size: 22px;
+    }
+    .navbar-light .navbar-toggler {
+        padding: 0;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #1f223e;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 25px;
+    }
+    .nav-bold {
+        display: none;
+    }
+    .top-nav {
+        display: none;
+    }
+    .banner-ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0 0px 0;
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+    .banner-input {
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+    .banner-input li {
+        margin-bottom: 40px;
+    }
+    .banner-ul li {
+        margin-bottom: 28px;
+    }
+
+    .banner-input li a {
+        padding: 12px 100px;
+    }
+    .logo-nav li h2 {
+        font-size: 30px;
+    }
+    .main-banner {
+        height: 100%;
+    }
+    input#address {
+        width: 300px;
+        height: 52px;
+        margin-right: 0px;
+    }
+    .banner-ul li a {
+        padding: 14px 14px;
+        margin-right: 6px;
+    }
+    .subscribe-row h3 {
+        padding: 23px 20px 0 10px;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .subscribe-row h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        justify-content: center;
+    }
+    .subscribe-row p {
+        font-size: 12px;
+        font-size: 12px;
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .subscribe-row a {
+        padding: 16px 20px;
+        right: 0;
+        bottom: -60px;
+        left: 0;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        margin: auto;
+    }
+    .subscribe {
+        height: 241px;
+        background-size: cover;
+    }
+    .subscribe-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        position: relative;
+        flex-direction: column;
+    }
+    .featured-grid li {
+        width: 328px;
+        margin-right: 15px;
+        margin-bottom: 60px;
+        margin-left: 0;
+        box-shadow: none;
+        border: 1px solid #dddddd;
+    }
+    .view-state-sales .map {
+        height: 341px;
+    }
+    .view-state-sales {
+        height: 532px;
+    }
+    .card .rating {
+        width: 286px;
+        height: 65px;
+        top: 121px;
+    }
+    .card-title {
+        font-size: 19px;
+    }
+    .featured-sales h2 {
+        padding-top: 0;
+    }
+    .featured-grid {
+        padding-top: 0px;
+        margin-bottom: 0;
+    }
+    .nationally-featured {
+        padding: 28px 0 0 0;
+    }
+    .michigan-companies {
+        padding: 52px 0 40px 0;
+    }
+    .card-body {
+        text-align: center;
+    }
+    .subscribe-row {
+        padding: 0px 0;
+    }
+    .estate-sale {
+        padding: 0px 0;
+    }
+    .contact-us-links {
+        display: none;
+    }
+    .contact-row {
+        padding: 0 0;
+    }
+    .contact-row h2 {
+        font-size: 30px;
+    }
+    .contact-row p {
+        padding-right: 0;
+    }
+    .footer-row h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .view-state-sales {
+        padding: 50px 0 0px 0;
+    }
+    footer {
+        padding: 20px 0px;
+    }
+    .footer-row p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-links li {
+        padding-left: 34px;
+    }
+    .footer-links li i {
+        font-size: 25px;
+    }
+    .footer-ul li a {
+        font-size: 14px;
+    }
+    .footer-mail li input {
+        width: 100%;
+    }
+    ul.footer-ul {
+        padding-left: 0;
+    }
+    .footer-mail {
+        display: none;
+    }
+    .footer-icons li a i {
+        font-size: 30px;
+        margin-right: 0;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .footer-icons li:first-child {
+        text-align: center;
+    }
+    .footer-icons {
+        display: none;
+    }
+    .widget2 h4 {
+        border-bottom: 1px solid #050505;
+        margin-bottom: 44px;
+    }
+    ul.footer-ul {
+        display: none;
+    }
+    .extra-li {
+        display: none;
+    }
+    h4.extra {
+        display: block;
+    }
+    .footer-ul li .sml {
+        text-align: left;
+    }
+
+}
